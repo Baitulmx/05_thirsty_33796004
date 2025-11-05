@@ -1,0 +1,101 @@
+/* style.css */
+
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #f4f4f9;
+  margin: 40px;
+  color: #333;
+}
+
+h1 {
+  color: #007acc;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+  text-align: center;
+}
+
+/* Form Container */
+form {
+  margin: 20px auto;
+  width: 320px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* inputs */
+input[type="text"],
+input[type="email"],
+select {
+  width: 95%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* radios and checkboxes alignment */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Radio & Checkbox Groups */
+fieldset {
+  border: none;
+  margin-top: 10px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* radio row alignment */
+.radio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+.radio-row label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.radio-row input[type="radio"] {
+  margin-left: 10px;
+}
+
+/* Checkbox styling*/
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* submit button */
+input[type="submit"] {
+  display: block;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
