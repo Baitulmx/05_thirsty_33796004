@@ -40,9 +40,8 @@ Users can navigate through several pages, search for drinks, register their deta
 ------------------------
 
 ## 📂 Project Structure
-
+```
 05_thirsty_12345678/
-
 │
 ├── index.js # Main Express server setup
 ├── routes/
@@ -62,3 +61,4 @@ Users can navigate through several pages, search for drinks, register their deta
 ├── package.json # Node.js dependencies
 ├── .gitignore # Ignores node_modules and other unneeded files
 └── README.md # Project documentation
+```
